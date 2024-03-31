@@ -1,0 +1,1 @@
+GradPath serves as a service to support recent graduates navigate their career journey. GradPath focuses on Resume help driven by AI, Mock Interviews as well as help graduates find entry level jobs and rotational programs offered by companies.
