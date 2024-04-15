@@ -20,7 +20,7 @@ def retrieve_job_postings(app_id, app_key, what, where):
         print(f"Response text: {response.text}")
         return None
 
-data = retrieve_job_postings('dd02a84d', 'c96c29a103376d6a81f40ed9c115d856', 'python', 'london')
+data = retrieve_job_postings('<YourAPPId>', '<YourAPIkey>', 'python', 'london')
 
 if data and 'results' in data:
     for job in data['results']:
