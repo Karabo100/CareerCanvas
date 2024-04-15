@@ -1,4 +1,4 @@
-#This feature allows for the retrieval of job postings from the Adzuna API. The user can specify the job title and location to search for job postings. The function retrieve_job_postings(app_id, app_key, what, where) takes in the user's app_id, app_key, job title, and location as arguments and returns the job postings in JSON format. If the request is successful, the function returns the job postings; otherwise, it prints the status code and response text of the request. The user needs to replace '<YourAPPId>' and '<YourAppKey>' with their own Adzuna API app_id and app_key to use this feature.
+#This feature allows for the retrieval of job postings from the Adzuna API. The user can specify the job title and location to search for job postings.
 
 import requests
 
@@ -20,5 +20,13 @@ def retrieve_job_postings(app_id, app_key, what, where):
         print(f"Response text: {response.text}")
         return None
 
-data = retrieve_job_postings('<YourAPPId>', '<YourAppKey>', 'python', 'london')
-print(data)
+data = retrieve_job_postings('dd02a84d', 'c96c29a103376d6a81f40ed9c115d856', 'python', 'london')
+
+if data and 'results' in data:
+    for job in data['results']:
+        print(f"Title: {job['title']}")
+        print(f"Company: {job['company']['display_name']}")
+        print(f"Location: {job['location']['display_name']}")
+        print(f"URL: {job['redirect_url']}")
+        print(f"Description: {job['description']}")
+        print("\n")
