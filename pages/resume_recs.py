@@ -7,7 +7,7 @@ import re
 
 # Set up OpenAI API
  
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="OPEN_AI_KEY")
 
 # Function to extract text from PDF
 def extract_text_from_pdf(uploaded_file):
