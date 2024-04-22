@@ -4,7 +4,7 @@ import openai
 import json
 import os
 
-openai.api_key = "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"
+openai.api_key = "OPEN_AI_KEY"
 
 def load_messages():
     messages = []
