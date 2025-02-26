@@ -1,3 +1,4 @@
+#By Nina Lee
 import streamlit as st 
 from openai import OpenAI
 import openai
