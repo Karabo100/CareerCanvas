@@ -12,9 +12,15 @@ While the unemployment rate of recent graduated rising, more and more people are
 
 # Feature 1: Resume Feedback Tool
 This feature serves to give feedback on resumes uploaded. Feedback and recommendation on career paths will be provided based on the uploaded resume . Users ought to be careful with the content of PDF file as information will be fed to Open AI GPT text generation model gpt-3.5-turbo. 
+<img width="798" alt="截圖 2025-03-06 下午1 56 51" src="https://github.com/user-attachments/assets/2a629da8-15d5-4577-966c-2b4fd420fe25" />
+
 
 # Feature 2: Mock Interview Tool
 Our tool allows for users to input an audio file through the interface and for AI to serve as an interactive interview practice platform. 
+<img width="800" alt="截圖 2025-03-06 下午1 56 58" src="https://github.com/user-attachments/assets/554e7782-f296-4aa5-8160-8f212a3d3784" />
+
 
 # Feature 3: Entry-level and rotational programs Tool
 This feature allows for the retrieval of job postings from the Adzuna API, where the user can specify the job title and location to search for job postings. 
+<img width="800" alt="截圖 2025-03-06 下午1 57 04" src="https://github.com/user-attachments/assets/d3dca221-ba26-44f5-9bd6-774618eb5ebd" />
+
